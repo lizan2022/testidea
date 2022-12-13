@@ -40,7 +40,7 @@ public class OrderController {
 
     @RequestMapping("/save")
     public JsonResponseBody save(Order order){
-        System.out.println("okok");
+        System.out.println("okokokok");
         boolean f = orderService.save(order);
         if (f){
             return new JsonResponseBody();
