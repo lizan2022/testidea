@@ -18,6 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class CustomerController {
 
   public String testname(){
+    return "";
   }
 }
 
